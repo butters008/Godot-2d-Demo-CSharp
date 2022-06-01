@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Art Assets/Bob-v1.png" type="Texture" id=1]
+[ext_resource path="res://2D Platformer/Falling Blocks/Floor-OnePiece.tscn" type="PackedScene" id=2]
+[ext_resource path="res://2D Platformer/Create a Character/Bob.cs" type="Script" id=3]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 12.0
+height = 8.0
+
+[node name="2d-CreateToon" type="Node2D"]
+
+[node name="Floor-OnePiece" parent="." instance=ExtResource( 2 )]
+modulate = Color( 0.890196, 0, 0, 1 )
+
+[node name="Bob" type="KinematicBody2D" parent="."]
+position = Vector2( 320, 135 )
+scale = Vector2( 2, 2 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bob"]
+position = Vector2( -1.5, 0 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Bob"]
+texture = ExtResource( 1 )

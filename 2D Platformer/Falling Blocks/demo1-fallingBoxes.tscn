@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://2D Platformer/Falling Blocks/Floor-OnePiece.tscn" type="PackedScene" id=1]
+[ext_resource path="res://2D Platformer/Falling Blocks/block.tscn" type="PackedScene" id=2]
+
+[node name="demo1-fallingBoxes" type="Node2D"]
+
+[node name="Floor-OnePiece" parent="." instance=ExtResource( 1 )]
+
+[node name="block2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 408, 26 )
+rotation = 2.7681
+
+[node name="block3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 687, 43 )
+
+[node name="block" parent="." instance=ExtResource( 2 )]
+position = Vector2( 250, 49 )

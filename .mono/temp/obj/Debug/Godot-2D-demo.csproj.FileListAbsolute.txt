@@ -1,0 +1,9 @@
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\obj\Debug\Godot-2D-demo.csproj.AssemblyReference.cache
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\obj\Debug\Godot-2D-demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\obj\Debug\Godot-2D-demo.AssemblyInfoInputs.cache
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\obj\Debug\Godot-2D-demo.AssemblyInfo.cs
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\obj\Debug\Godot-2D-demo.csproj.CoreCompileInputs.cache
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\bin\Debug\Godot-2D-demo.dll
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\bin\Debug\Godot-2D-demo.pdb
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\obj\Debug\Godot-2D-demo.dll
+C:\Users\kbutt\Documents\game_repo\godot-2dplat-demo\.mono\temp\obj\Debug\Godot-2D-demo.pdb
