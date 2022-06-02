@@ -10,22 +10,34 @@ public class Bob : KinematicBody2D
 	const int SPEED = 200;
 	const int JUMP = -100;
 	Vector2 velocity;
+	AnimationPlayer animePlayer;
 
+	//Need the _Ready function to make the player animation = can't declare and add like Java
+	public override void _Ready(){
+		animePlayer = GetNode<AnimationPlayer>("AnimationPlayer");
+	}
 
 	//Still going to do input method if I can 
 	public void getInput(){
-		if(Input.IsActionPressed("move_right")){
+		if(Input.IsActionPressed("move_right") && IsOnFloor()){
 			velocity.x = SPEED;
+			GetNode<Sprite>("Sprite").FlipH = false;
+			animePlayer.Play("Walk");
 		}
-		if(Input.IsActionPressed("move_left" )){
+		else if(Input.IsActionPressed("move_left" ) && IsOnFloor()){
 			velocity.x = -SPEED;
+			GetNode<Sprite>("Sprite").FlipH = true;
+			animePlayer.Play("Walk");
+
 		}
-		if(Input.IsActionJustPressed("jump") && IsOnFloor()){
+		else if(Input.IsActionJustPressed("jump") && IsOnFloor()){
 			velocity.y = JUMP;
 		}
 		else{
+			animePlayer.Play("Idle1");
 			velocity.x = Mathf.Lerp(velocity.x, 0, 0.25f);
 		}
+
 		if(Input.IsActionJustPressed("attack")){
 			GD.Print("Attacking!");
 		}
