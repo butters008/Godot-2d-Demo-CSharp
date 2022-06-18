@@ -7,7 +7,7 @@ public class Bob : KinematicBody2D
 
 	//Declaring vars
 	const float GRAVITY = 200.0f;
-	const int SPEED = 200;
+	const int SPEED = 100;
 	const int JUMP = -100;
 	Vector2 velocity;
 	AnimationPlayer animePlayer;
@@ -19,12 +19,13 @@ public class Bob : KinematicBody2D
 
 	//Still going to do input method if I can 
 	public void getInput(){
-		if(Input.IsActionPressed("move_right") && IsOnFloor()){
+		if(Input.IsActionPressed("move_right")){
 			velocity.x = SPEED;
 			GetNode<Sprite>("Sprite").FlipH = false;
 			animePlayer.Play("Walk");
 		}
-		else if(Input.IsActionPressed("move_left" ) && IsOnFloor()){
+		// else if(Input.IsActionPressed("move_left" ) && IsOnFloor()){
+		else if(Input.IsActionPressed("move_left" )){
 			velocity.x = -SPEED;
 			GetNode<Sprite>("Sprite").FlipH = true;
 			animePlayer.Play("Walk");
