@@ -415,19 +415,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kbutt\\.nuget\\packages\\": {}
+    "C:\\Users\\Keith\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kbutt\\Documents\\game_repo\\godot-2dplat-demo\\Godot-2D-demo.csproj",
+      "projectUniqueName": "D:\\game-repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
       "projectName": "Godot-2D-demo",
-      "projectPath": "C:\\Users\\kbutt\\Documents\\game_repo\\godot-2dplat-demo\\Godot-2D-demo.csproj",
-      "packagesPath": "C:\\Users\\kbutt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kbutt\\Documents\\game_repo\\godot-2dplat-demo\\.mono\\temp\\obj\\",
+      "projectPath": "D:\\game-repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
+      "packagesPath": "C:\\Users\\Keith\\.nuget\\packages\\",
+      "outputPath": "D:\\game-repo\\Godot-2d-Demo-CSharp\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kbutt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Keith\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net472"
