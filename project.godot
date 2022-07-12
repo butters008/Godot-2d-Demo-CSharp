@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Godot-2D-demo"
-run/main_scene="res://2D Platformer/Create a Character/demo2-CreatingToon.tscn"
+run/main_scene="res://2D Platformer/CharacterAndCam Move/2d-Demo-Better.tscn"
 config/icon="res://icon.png"
 
 [gdnative]
