@@ -4,30 +4,37 @@ using System;
 public class BobV2 : KinematicBody2D
 {
   //Declare vars here
-  const float GRAVITY = 200f;
-  const int SPEED = 100;
+  const float GRAVITY = 100f;
+  const int SPEED = 50;
   Vector2 velocity;
-	AnimationPlayer animationPlayer;
+	// AnimationPlayer animationPlayer;
+	AnimatedSprite animatedSprite;
+
 
   public override void _Ready(){
 		GD.Print("Getting the Ready Ready...");
-		animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
-		//Testing
+		// animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
+		animatedSprite = GetNode<AnimatedSprite>("AnimatedSprite");
   }
 
   public void getInput(){
-		if(Input.IsActionJustPressed("move_right")){
+		if(Input.IsActionPressed("move_right")){
 			velocity.x = SPEED;
-			animationPlayer.Play("Walk");
-			GetNode<Sprite>("Sprite").FlipH = false;
+			animatedSprite.Play("Walk");
+			GetNode<AnimatedSprite>("AnimatedSprite").FlipH = false;
+			// animationPlayer.Play("Walk");
+			// GetNode<Sprite>("Sprite").FlipH = false;
 		}
-		else if(Input.IsActionJustPressed("move_left")){
+		else if(Input.IsActionPressed("move_left")){
 			velocity.x = -SPEED;
-			animationPlayer.Play("Walk");
-			GetNode<Sprite>("Sprite").FlipH = true;
+			animatedSprite.Play("Walk");
+			GetNode<AnimatedSprite>("AnimatedSprite").FlipH = true;
+			// animationPlayer.Play("Walk");
+			// GetNode<Sprite>("Sprite").FlipH = true;
 		}
 		else{
-			animationPlayer.Play("Idle");
+			animatedSprite.Play("Idle");
+			// animationPlayer.Play("Idle");
 			velocity.x = Mathf.Lerp(velocity.x, 0, 0.25f);
 		}
   }
