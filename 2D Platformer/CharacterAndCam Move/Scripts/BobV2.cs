@@ -4,16 +4,15 @@ using System;
 public class BobV2 : KinematicBody2D
 {
   //Declare vars here
-  const float GRAVITY = 100f;
+  const float GRAVITY = 50f;
   const int SPEED = 50;
+	const int JUMP = 100;
   Vector2 velocity;
-	// AnimationPlayer animationPlayer;
 	AnimatedSprite animatedSprite;
 
 
   public override void _Ready(){
 		GD.Print("Getting the Ready Ready...");
-		// animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
 		animatedSprite = GetNode<AnimatedSprite>("AnimatedSprite");
   }
 
@@ -22,19 +21,17 @@ public class BobV2 : KinematicBody2D
 			velocity.x = SPEED;
 			animatedSprite.Play("Walk");
 			GetNode<AnimatedSprite>("AnimatedSprite").FlipH = false;
-			// animationPlayer.Play("Walk");
-			// GetNode<Sprite>("Sprite").FlipH = false;
 		}
 		else if(Input.IsActionPressed("move_left")){
 			velocity.x = -SPEED;
 			animatedSprite.Play("Walk");
 			GetNode<AnimatedSprite>("AnimatedSprite").FlipH = true;
-			// animationPlayer.Play("Walk");
-			// GetNode<Sprite>("Sprite").FlipH = true;
+		}
+		else if(Input.IsActionPressed("jump")){
+			velocity.y = JUMP;
 		}
 		else{
 			animatedSprite.Play("Idle");
-			// animationPlayer.Play("Idle");
 			velocity.x = Mathf.Lerp(velocity.x, 0, 0.25f);
 		}
   }
