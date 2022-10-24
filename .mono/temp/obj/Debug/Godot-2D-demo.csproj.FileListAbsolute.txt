@@ -16,3 +16,12 @@ D:\game-repo\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.AssemblyInf
 D:\game-repo\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.csproj.CoreCompileInputs.cache
 D:\game-repo\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.dll
 D:\game-repo\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.pdb
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\bin\Debug\Godot-2D-demo.dll
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\bin\Debug\Godot-2D-demo.pdb
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.csproj.AssemblyReference.cache
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.AssemblyInfoInputs.cache
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.AssemblyInfo.cs
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.csproj.CoreCompileInputs.cache
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.dll
+E:\gameDev\Godot\Godot-2d-Demo-CSharp\.mono\temp\obj\Debug\Godot-2D-demo.pdb

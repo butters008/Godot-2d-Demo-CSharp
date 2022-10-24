@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://2D-Platformer-3.5/Scripts/Player.cs" type="Script" id=1]
+[ext_resource path="res://2D-game-CoL_clone/Scripts/Player.cs" type="Script" id=1]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {

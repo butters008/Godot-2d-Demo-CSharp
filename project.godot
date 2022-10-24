@@ -64,6 +64,10 @@ attack={
  ]
 }
 
+[mono]
+
+project/assembly_name="Godot-2D-demo"
+
 [physics]
 
 common/enable_pause_aware_picking=true
