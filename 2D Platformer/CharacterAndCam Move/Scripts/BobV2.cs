@@ -5,7 +5,7 @@ public class BobV2 : KinematicBody2D
 {
   //Declare vars here
   const float GRAVITY = 50f;
-  const int SPEED = 50;
+  const int SPEED = 75;
 	const int JUMP = 100;
   Vector2 velocity;
 	AnimatedSprite animatedSprite;
