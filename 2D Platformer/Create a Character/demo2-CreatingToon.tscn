@@ -3,7 +3,7 @@
 [ext_resource path="res://2D Platformer/Walk.tres" type="Animation" id=1]
 [ext_resource path="res://2D Platformer/TileMap.tscn" type="PackedScene" id=2]
 [ext_resource path="res://2D Platformer/Create a Character/Bob.cs" type="Script" id=3]
-[ext_resource path="res://Art Assets/Bob-v1-Sheet.png" type="Texture" id=4]
+[ext_resource path="res://Art Assets/Bob-v1-Sheet.png" type="Texture2D" id=4]
 [ext_resource path="res://2D Platformer/idle1.tres" type="Animation" id=5]
 
 [sub_resource type="CapsuleShape2D" id=1]
@@ -13,21 +13,21 @@ height = 8.0
 [sub_resource type="Animation" id=3]
 length = 0.001
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:frame")
+tracks/0/path = NodePath("Sprite2D:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
+"times": PackedFloat32Array( 0 ),
+"transitions": PackedFloat32Array( 1 ),
 "update": 0,
 "values": [ 1 ]
 }
 
 [node name="2d-CreateToon" type="Node2D"]
 
-[node name="Bob" type="KinematicBody2D" parent="."]
+[node name="Bob" type="CharacterBody2D" parent="."]
 position = Vector2( 319, 43 )
 scale = Vector2( 2, 2 )
 script = ExtResource( 3 )
@@ -39,7 +39,7 @@ __meta__ = {
 position = Vector2( -1.5, 0 )
 shape = SubResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="Bob"]
+[node name="Sprite2D" type="Sprite2D" parent="Bob"]
 texture = ExtResource( 4 )
 hframes = 12
 frame = 1
