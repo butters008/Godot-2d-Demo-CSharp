@@ -1,4 +1,5 @@
 res://default_env.tres
+res://control.tscn
 res://2D Platformer/CharacterAndCam Move/2d-Demo-Better.tscn
 res://2D Platformer/CharacterAndCam Move/BobV2.tscn
 res://2D Platformer/CharacterAndCam Move/Scripts/BobV2.cs
