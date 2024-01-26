@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706240496
-default_env.tres::Environment::5604910222908903238::1701784284::0::1::::<><>::
+::res://::1706242251
+control.tscn::PackedScene::4398020344546784::1706242154::0::1::::<><>::
+default_env.tres::Environment::5604910222908903238::1706242154::0::1::::<><>::
 icon.png::CompressedTexture2D::4750811803481074886::1701784075::1701784269::1::::<><>::
 Idle1.tres::Animation::-1::1701784075::0::1::::<><>::
 README.md::TextFile::-1::1701784075::0::1::::<><>::
@@ -9,11 +10,11 @@ README.md::TextFile::-1::1701784075::0::1::::<><>::
 idle1.tres::Animation::-1::1701784269::0::1::::<><>::
 TileMap.tscn::PackedScene::-1::1701784269::0::1::::<><>::res://2D Platformer/Create a Character/WorldTileSet.tres
 Walk.tres::Animation::-1::1701784269::0::1::::<><>::
-::res://2D Platformer/CharacterAndCam Move/::1701784284
-2d-Demo-Better.tscn::PackedScene::2092845493398507286::1701784284::0::1::::<><>::res://2D Platformer/CharacterAndCam Move/BobV2.tscn<>uid://cg4i73thriric::::res://Art Assets/tileset.png
-BobV2.tscn::PackedScene::-1::1701784269::0::1::::<><>::res://2D Platformer/CharacterAndCam Move/Scripts/BobV2.cs<>res://Art Assets/BobV3-Sheet.png
+::res://2D Platformer/CharacterAndCam Move/::1706242154
+2d-Demo-Better.tscn::PackedScene::2092845493398507286::1706242154::0::1::::<><>::uid://btme547mlec0x::::res://2D Platformer/CharacterAndCam Move/BobV2.tscn<>uid://cdenyeeqsboxf::::res://Art Assets/tileset.png
+BobV2.tscn::PackedScene::3745079260823627073::1706242154::0::1::::<><>::res://2D Platformer/CharacterAndCam Move/Scripts/BobV2.cs<>uid://d025ifbfa1408::::res://Art Assets/BobV3-Sheet.png
 ::res://2D Platformer/CharacterAndCam Move/Scripts/::1701784269
-BobV2.cs::CSharpScript::-1::1701784269::0::1::::<>CharacterBody2D<>::
+BobV2.cs::CSharpScript::-1::1706240796::0::1::::<>CharacterBody2D<>::
 BobV2.gd::GDScript::-1::1701784269::0::1::::<>CharacterBody2D<>::
 ::res://2D Platformer/Create a Character/::1701784269
 Bob.cs::CSharpScript::-1::1701784269::0::1::::<>CharacterBody2D<>::
