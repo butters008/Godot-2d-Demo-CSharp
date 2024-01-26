@@ -33,3 +33,16 @@ mono_crash.*.json
 .godot/mono/temp/obj/Debug/Godot-2D-demo.sourcelink.json
 .godot/mono/temp/obj/Debug/ref/Godot-2D-demo.dll
 .godot/mono/temp/obj/Debug/refint/Godot-2D-demo.dll
+*.cfg
+*.cfg
+.godot/editor/editor_layout.cfg
+.godot/editor/filesystem_cache8
+.godot/mono/temp/bin/Debug/Godot-2D-demo.dll
+.godot/mono/temp/bin/Debug/Godot-2D-demo.pdb
+.godot/mono/temp/obj/Debug/Godot-2D-demo.AssemblyInfo.cs
+.godot/mono/temp/obj/Debug/Godot-2D-demo.AssemblyInfoInputs.cache
+.godot/mono/temp/obj/Debug/Godot-2D-demo.dll
+.godot/mono/temp/obj/Debug/Godot-2D-demo.pdb
+.godot/mono/temp/obj/Debug/Godot-2D-demo.sourcelink.json
+.godot/mono/temp/obj/Debug/ref/Godot-2D-demo.dll
+.godot/mono/temp/obj/Debug/refint/Godot-2D-demo.dll
