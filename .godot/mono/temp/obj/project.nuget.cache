@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "JVfCEuKctj8myOulYBqkpxT3HWyI3D9IDs14iG6khVUd+0ns/x/g0GsS5hjHSlXTzaFnzxO9Xvp0+krNINn/sQ==",
+  "dgSpecHash": "ZTNcQw1lKviwgZWQQRk6bqI3XEV2BxDJezaT8zw8C0I9Ny7zVnfrqOi87PASNfYLVv2gJHLaA1cGgIMUZs4TAA==",
   "success": true,
-  "projectFilePath": "D:\\game-repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
+  "projectFilePath": "C:\\Users\\kbutt\\game_repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Keith\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
-    "C:\\Users\\Keith\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
-    "C:\\Users\\Keith\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+    "C:\\Users\\kbutt\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\kbutt\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\kbutt\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512",
+    "C:\\Users\\kbutt\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\kbutt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\kbutt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

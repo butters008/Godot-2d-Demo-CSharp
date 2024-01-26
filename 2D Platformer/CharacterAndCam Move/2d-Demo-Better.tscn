@@ -1,6 +1,6 @@
-[gd_scene load_steps=31 format=3 uid="uid://ds80ne2soj6ev"]
+[gd_scene load_steps=31 format=3 uid="uid://4214huddxwdq"]
 
-[ext_resource type="PackedScene" path="res://2D Platformer/CharacterAndCam Move/BobV2.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://btme547mlec0x" path="res://2D Platformer/CharacterAndCam Move/BobV2.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cdenyeeqsboxf" path="res://Art Assets/tileset.png" id="2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kunut"]
