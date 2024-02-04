@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6diiorr6trem"]
+
+[ext_resource type="Script" path="res://PlaygoundMainMenu.cs" id="1_r44ut"]
+
+[node name="PlaygoundMainMenu" type="Node2D"]
+script = ExtResource("1_r44ut")
+
+[node name="ItemList" type="ItemList" parent="."]
+offset_left = 170.0
+offset_top = -2.0
+offset_right = 485.0
+offset_bottom = 358.0
+metadata/_edit_group_ = true
+
+[node name="Button" type="Button" parent="ItemList"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.997
+anchor_bottom = 0.086
+offset_top = -1.0
+offset_right = -0.0550232
+offset_bottom = -0.960001
+text = "Child of Ligh Clone"
+metadata/_edit_group_ = true
+
+[connection signal="pressed" from="ItemList/Button" to="." method="_on_button_pressed"]

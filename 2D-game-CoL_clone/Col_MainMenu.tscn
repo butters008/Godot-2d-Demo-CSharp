@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://somff2kfqtjx"]
+
+[node name="ColMainMenu" type="Node2D"]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 265.0
+offset_top = 86.0
+offset_right = 441.0
+offset_bottom = 139.0
+text = "Child of Light Clone"
