@@ -89,25 +89,22 @@
   },
   "packageFolders": {
     "C:\\Users\\kbutt\\.nuget\\packages\\": {},
-    "C:\\Users\\kbutt\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kbutt\\game_repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
+      "projectUniqueName": "D:\\butterfield-repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
       "projectName": "Godot-2D-demo",
-      "projectPath": "C:\\Users\\kbutt\\game_repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
+      "projectPath": "D:\\butterfield-repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
       "packagesPath": "C:\\Users\\kbutt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kbutt\\game_repo\\Godot-2d-Demo-CSharp\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "D:\\butterfield-repo\\Godot-2d-Demo-CSharp\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\kbutt\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\kbutt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\kbutt\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -162,15 +159,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.25, 6.0.25]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.25, 6.0.25]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.25, 6.0.25]"
           }
         ],
         "frameworkReferences": {
@@ -178,7 +175,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
