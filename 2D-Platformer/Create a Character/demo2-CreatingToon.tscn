@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=8 format=3]
 
-[ext_resource path="res://2D Platformer/Walk.tres" type="Animation" id=1]
-[ext_resource path="res://2D Platformer/TileMap.tscn" type="PackedScene" id=2]
-[ext_resource path="res://2D Platformer/Create a Character/Bob.cs" type="Script" id=3]
-[ext_resource path="res://Art Assets/Bob-v1-Sheet.png" type="Texture2D" id=4]
-[ext_resource path="res://2D Platformer/idle1.tres" type="Animation" id=5]
+[ext_resource type="Animation" path="res://2D-Platformer/Walk.tres" id="1"]
+[ext_resource type="PackedScene" path="res://2D-Platformer/TileMap.tscn" id="2"]
+[ext_resource type="Script" path="res://2D-Platformer/Create a Character/Bob.cs" id="3"]
+[ext_resource type="Texture2D" uid="uid://c38i41fcxfhmh" path="res://Art Assets/Bob-v1-Sheet.png" id="4"]
+[ext_resource type="Animation" path="res://2D-Platformer/idle1.tres" id="5"]
+
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 12.0

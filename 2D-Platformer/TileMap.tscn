@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=2 format=3]
 
-[ext_resource path="res://2D Platformer/Create a Character/WorldTileSet.tres" type="TileSet" id=1]
+[ext_resource type="TileSet" path="res://2D-Platformer/Create a Character/WorldTileSet.tres" id="1"]
+
 
 [node name="TileMap" type="TileMap"]
 tile_set = ExtResource( 1 )

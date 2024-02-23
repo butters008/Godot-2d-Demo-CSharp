@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=3 format=3]
 
-[ext_resource path="res://2D Platformer/Falling Blocks/Floor-OnePiece.tscn" type="PackedScene" id=1]
-[ext_resource path="res://2D Platformer/Falling Blocks/block.tscn" type="PackedScene" id=2]
+[ext_resource type="PackedScene" path="res://2D-Platformer/Falling Blocks/Floor-OnePiece.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://2D-Platformer/Falling Blocks/block.tscn" id="2"]
+
 
 [node name="demo1-fallingBoxes" type="Node2D"]
 
