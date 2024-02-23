@@ -14,4 +14,11 @@ public partial class PlaygoundMainMenu : Node2D
 		GetTree().ChangeSceneToPacked(scene);
 
 	}
+
+	public void platformerButton_pressed()
+	{
+		Debug.WriteLine("Inside Button");
+		var scene = GD.Load<PackedScene>("res://2D-Platformer/GameDemo/2D-Demo-Better.tscn");
+		GetTree().ChangeSceneToPacked(scene);
+	}
 }

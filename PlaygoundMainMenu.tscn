@@ -5,14 +5,17 @@
 [node name="PlaygoundMainMenu" type="Node2D"]
 script = ExtResource("1_r44ut")
 
-[node name="ItemList" type="ItemList" parent="."]
-offset_left = 170.0
-offset_top = -2.0
-offset_right = 485.0
-offset_bottom = 358.0
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(317, 182)
+
+[node name="ItemList" type="ItemList" parent="Camera2D"]
+offset_left = -265.0
+offset_top = -147.0
+offset_right = 281.0
+offset_bottom = 179.0
 metadata/_edit_group_ = true
 
-[node name="Button" type="Button" parent="ItemList"]
+[node name="Button" type="Button" parent="Camera2D/ItemList"]
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.997
@@ -23,4 +26,13 @@ offset_bottom = -0.960001
 text = "Child of Ligh Clone"
 metadata/_edit_group_ = true
 
-[connection signal="pressed" from="ItemList/Button" to="." method="_on_button_pressed"]
+[node name="Button2" type="Button" parent="Camera2D/ItemList"]
+layout_mode = 0
+offset_top = 57.0
+offset_right = 545.0
+offset_bottom = 88.0
+text = "Platformer Demo"
+metadata/_edit_group_ = true
+
+[connection signal="pressed" from="Camera2D/ItemList/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Camera2D/ItemList/Button2" to="." method="platformerButton_pressed"]
