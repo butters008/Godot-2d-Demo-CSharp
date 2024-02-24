@@ -5,9 +5,9 @@ using System.Diagnostics;
 public partial class BobV2 : CharacterBody2D
 {
 	//Declare vars here
-	const float GRAVITY = 50f;
+	const float GRAVITY = 100f;
 	const int SPEED = 75;
-	const int JUMP = 100;
+	const int JUMP = 50;
 	Vector2 velocity;
 	AnimatedSprite2D animatedSprite;
 
@@ -20,40 +20,36 @@ public partial class BobV2 : CharacterBody2D
 		GD.Print("Getting the Ready Ready...");
 		//		animatedSprite = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
 	}
-	//
-	public void getInput()
-	{
-		if (Input.IsActionPressed("move_right"))
-		{
-			velocity.X = SPEED;
-			animatedSprite.Play("Walk");
-			GetNode<AnimatedSprite2D>("AnimatedSprite2D").FlipH = false;
-		}
-		else if (Input.IsActionPressed("move_left"))
-		{
-			velocity.X = -SPEED;
-			animatedSprite.Play("Walk");
-			GetNode<AnimatedSprite2D>("AnimatedSprite2D").FlipH = true;
-		}
-		else if (Input.IsActionPressed("jump"))
-		{
-			velocity.Y = JUMP;
-		}
-		else
-		{
-			animatedSprite.Play("Idle");
-			velocity.X = Mathf.Lerp(velocity.X, 0, 0.25f);
-		}
-	}
 
-	public override void _PhysicsProcess(float delta)
+	public override void _PhysicsProcess(double delta)
 	{
-		//This was brought in default
-		// base._PhysicsProcess(delta);
+		//declare vars and objects
+		Vector2 velocity = Velocity;
+
+		//Determine gravity
+		velocity.Y += GRAVITY * (float)delta;
+
+		//Move and Jump
+		if (Input.IsActionJustPressed("jump") && IsOnFloor())
+		{
+			Debug.WriteLine("Inside Jump");
+			velocity.Y = -JUMP;
+		}
+		if (IsOnFloor())
+		{
+			float direction = Input.GetAxis("move_left", "move_right");
+			velocity.X = direction * SPEED;
+		}
+
+
+
+
 
 		//Detecting the ground
-		velocity.Y += delta * GRAVITY;
-		getInput();
+		MoveAndSlide();
+
+
+		Velocity = velocity;
 
 		//MoveAndSlide(velocity, (new Vector2(0, -1)));
 	}

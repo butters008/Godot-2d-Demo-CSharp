@@ -1,6 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://btme547mlec0x"]
+[gd_scene load_steps=16 format=3 uid="uid://btme547mlec0x"]
 
 [ext_resource type="Texture2D" uid="uid://d025ifbfa1408" path="res://Art Assets/BobV3-Sheet.png" id="2"]
+[ext_resource type="Script" path="res://2D-Platformer/GameDemo/Scripts/BobV2.cs" id="2_0an62"]
 
 [sub_resource type="AtlasTexture" id="17"]
 atlas = ExtResource("2")
@@ -58,8 +59,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="1"]
-radius = 5.0
-height = 10.0
+radius = 9.0
+height = 32.0
 
 [sub_resource type="Animation" id="2"]
 resource_name = "AnimeBobV2"
@@ -134,12 +135,14 @@ _data = {
 
 [node name="BobV2" type="CharacterBody2D"]
 position = Vector2(464, 120)
+script = ExtResource("2_0an62")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("16")
 animation = &"Idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
 shape = SubResource("1")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
