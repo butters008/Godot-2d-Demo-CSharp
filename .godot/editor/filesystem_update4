@@ -1,8 +1,6 @@
+res://default_env.tres
+res://PlaygoundMainMenu.tscn
 res://2D-game-CoL_clone/Scripts/Player.cs
 res://2D-Platformer/Create a Character/Bob.cs
 res://2D-Platformer/GameDemo/Scripts/BobV2.cs
 res://PlaygoundMainMenu.cs
-res://default_env.tres
-res://control.tscn
-res://2D-Platformer/GameDemo/2d-Demo-Better.tscn
-res://2D-Platformer/GameDemo/BobV2.tscn
