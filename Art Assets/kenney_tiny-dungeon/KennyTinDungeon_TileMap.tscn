@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxafc30dbpv7r"]
+
+[ext_resource type="TileSet" uid="uid://bmqy3trydpqra" path="res://Art Assets/kenney_tiny-dungeon/Tilemap/kennyDungeonTileMap.tres" id="1_8h4ey"]
+
+[node name="KennyTinDungeonTileMap" type="TileMap"]
+tile_set = ExtResource("1_8h4ey")
+format = 2
