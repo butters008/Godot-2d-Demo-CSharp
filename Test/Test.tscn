@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dc22obanoj6la"]
+
+[ext_resource type="Script" path="res://Test/Test.cs" id="1_dq5vj"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bw3hm"]
+
+[node name="Test" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_dq5vj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CapsuleShape2D_bw3hm")
+
+[connection signal="child_entered_tree" from="CharacterBody2D/CollisionShape2D" to="CharacterBody2D" method="_on_collision_shape_2d_child_entered_tree"]
+[connection signal="child_exiting_tree" from="CharacterBody2D/CollisionShape2D" to="CharacterBody2D" method="_on_collision_shape_2d_child_exiting_tree"]

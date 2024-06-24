@@ -1,6 +1,16 @@
 res://default_env.tres
+res://2D-Platformer/GameDemo/2d-Demo-Better.tscn
+res://2D-Platformer/GameDemo/BobV2.tscn
+res://2D-game-CoL_clone/CoLGameDemo.tscn
+res://2D-game-CoL_clone/Col_MainMenu.tscn
+res://2D-game-CoL_clone/Player/Player.tscn
 res://PlaygoundMainMenu.tscn
+res://2D-Platformer/Create a Character/demo2-CreatingToon.tscn
+res://Test.tscn
+res://Test/Test.tscn
 res://2D-game-CoL_clone/Scripts/Player.cs
 res://2D-Platformer/Create a Character/Bob.cs
 res://2D-Platformer/GameDemo/Scripts/BobV2.cs
+res://CharacterBody2D.cs
 res://PlaygoundMainMenu.cs
+res://Test/Test.cs

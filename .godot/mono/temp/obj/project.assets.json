@@ -88,26 +88,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\butters\\.nuget\\packages\\": {},
-    "C:\\Users\\butters\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
+    "C:\\Users\\kbutt\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\game_repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
+      "projectUniqueName": "D:\\butterfield-repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
       "projectName": "Godot-2D-demo",
-      "projectPath": "E:\\game_repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
-      "packagesPath": "C:\\Users\\butters\\.nuget\\packages\\",
-      "outputPath": "E:\\game_repo\\Godot-2d-Demo-CSharp\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "D:\\butterfield-repo\\Godot-2d-Demo-CSharp\\Godot-2D-demo.csproj",
+      "packagesPath": "C:\\Users\\kbutt\\.nuget\\packages\\",
+      "outputPath": "D:\\butterfield-repo\\Godot-2d-Demo-CSharp\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\butters\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\butters\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\butters\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Users\\kbutt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -129,6 +126,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -159,12 +161,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

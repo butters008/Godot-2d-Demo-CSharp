@@ -10,10 +10,12 @@ config_version=5
 
 [application]
 
-config/name="Godot-2D-demo"
+config/name="Godot Mono - Playground"
+config/description="This is a general project that will house vertical slices of game demos that I will try and re-create that are from my favorite games. "
+config/version="0.0.1"
 run/main_scene="res://PlaygoundMainMenu.tscn"
 config/features=PackedStringArray("4.2", "C#")
-config/icon="res://icon.png"
+config/icon="res://mono-icon-v1.png"
 
 [display]
 

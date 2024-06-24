@@ -45,7 +45,6 @@ D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-dem
 D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.AssemblyInfo.cs
 D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.csproj.CoreCompileInputs.cache
 D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.sourcelink.json
-D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.csproj.CopyComplete
 D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.dll
 D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\refint\Godot-2D-demo.dll
 D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.pdb
@@ -69,3 +68,4 @@ E:\game_repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\refint\Godot-2D-dem
 E:\game_repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.pdb
 E:\game_repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D-demo.genruntimeconfig.cache
 E:\game_repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\ref\Godot-2D-demo.dll
+D:\butterfield-repo\Godot-2d-Demo-CSharp\.godot\mono\temp\obj\Debug\Godot-2D.A995980A.Up2Date

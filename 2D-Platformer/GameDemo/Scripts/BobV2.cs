@@ -2,6 +2,12 @@ using Godot;
 using System;
 using System.Diagnostics;
 
+/*
+This is going to be the characterbody main class for the player in the 2D platformer demo
+I am going to try my hardest, to comment what I am doing for my own self by for anyone who wants
+to look at this repo for themselves
+*/
+
 public partial class BobV2 : CharacterBody2D
 {
 	//Declare vars here
@@ -10,16 +16,6 @@ public partial class BobV2 : CharacterBody2D
 	const int JUMP = 50;
 	Vector2 velocity;
 	AnimatedSprite2D animatedSprite;
-
-	//Console.WriteLine("Hello");
-
-
-	public override void _Ready()
-	{
-		Debug.WriteLine("Hello");
-		GD.Print("Getting the Ready Ready...");
-		//		animatedSprite = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
-	}
 
 	public override void _PhysicsProcess(double delta)
 	{
@@ -35,22 +31,20 @@ public partial class BobV2 : CharacterBody2D
 			Debug.WriteLine("Inside Jump");
 			velocity.Y = -JUMP;
 		}
-		if (IsOnFloor())
+		if (Input.IsActionPressed("move_left") || Input.IsActionPressed("move_right"))
 		{
 			float direction = Input.GetAxis("move_left", "move_right");
+			Debug.WriteLine(direction);
 			velocity.X = direction * SPEED;
 		}
-
-
-
-
-
-		//Detecting the ground
+		else
+		{
+			velocity.X = 0;
+		}
+		//This has delta built inside of it - this is prebuilt move/collision method that is used
 		MoveAndSlide();
-
-
+		//This is used for movement as well.
 		Velocity = velocity;
 
-		//MoveAndSlide(velocity, (new Vector2(0, -1)));
 	}
 }

@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://rh5do1tubflr"]
+
+[ext_resource type="Script" path="res://CharacterBody2D.cs" id="1_1y1b0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n6x2i"]
+
+[node name="Test" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_1y1b0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_n6x2i")
+
+[connection signal="child_entered_tree" from="CharacterBody2D/CollisionShape2D" to="CharacterBody2D" method="_on_collision_shape_2d_child_entered_tree"]
+[connection signal="child_order_changed" from="CharacterBody2D/CollisionShape2D" to="CharacterBody2D" method="_on_collision_shape_2d_child_order_changed"]
+[connection signal="ready" from="CharacterBody2D/CollisionShape2D" to="CharacterBody2D" method="_on_collision_shape_2d_ready"]
+[connection signal="replacing_by" from="CharacterBody2D/CollisionShape2D" to="CharacterBody2D" method="TestTest"]
+[connection signal="tree_entered" from="CharacterBody2D/CollisionShape2D" to="CharacterBody2D" method="_on_collision_shape_2d_tree_entered"]
